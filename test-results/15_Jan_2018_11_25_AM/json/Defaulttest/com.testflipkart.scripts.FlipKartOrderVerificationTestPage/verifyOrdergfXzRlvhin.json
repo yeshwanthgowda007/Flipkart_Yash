@@ -1,0 +1,395 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.flipkart.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4677
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[text()='✕'], using=xpath}"
+      ],
+      "result": "[id: 0.23860859888764674-1]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "Using any of[xpath=//button[text()='✕'], css=svg[class='_1LYY3m']]",
+        "{\"id\":\"0.23860859888764674-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 129
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1170
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=a[title='Men'], using=css selector}"
+      ],
+      "result": "[id: 0.23860859888764674-2]",
+      "subLogs": [],
+      "duration": 145
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Men'], using=css selector}"
+      ],
+      "result": "id: 0.23860859888764674-2",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: a[title='Men']",
+        "{\"id\":\"0.23860859888764674-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Men'], using=css selector}"
+      ],
+      "result": "id: 0.23860859888764674-2",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.23860859888764674-2}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.23860859888764674-3]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.23860859888764674-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.23860859888764674-3]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.23860859888764674-3\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.23860859888764674-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 214
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "[id: 0.23860859888764674-4]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "id: 0.23860859888764674-4",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: input[class='_1wT-Zr']",
+        "{\"id\":\"0.23860859888764674-4\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "id: 0.23860859888764674-4",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.cssSelector: input[class='_1wT-Zr']",
+        "{\"id\":\"0.23860859888764674-4\",\"value\":[\"Mi\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 109
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[.='Mi'], using=xpath}"
+      ],
+      "result": "[id: 0.23860859888764674-5, id: 0.23860859888764674-6, id: 0.23860859888764674-7, id: 0.23860859888764674-8]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[.='Mi'], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-5",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[.='Mi']",
+        "{\"id\":\"0.23860859888764674-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[.='Mi'], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-5",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[.='Mi']",
+        "{\"id\":\"0.23860859888764674-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 233
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Smart Band - Buy Products Online at Best Price in India | Flipkart.com",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[text()='Price -- Low to High'], using=xpath}"
+      ],
+      "result": "[id: 0.23860859888764674-9]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//li[text()='Price -- Low to High'], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-9",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //li[text()='Price -- Low to High']",
+        "{\"id\":\"0.23860859888764674-9\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//li[text()='Price -- Low to High'], using=xpath}"
+      ],
+      "result": "id: 0.23860859888764674-9",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //li[text()='Price -- Low to High']",
+        "{\"id\":\"0.23860859888764674-9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 90
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.23860859888764674-10, id: 0.23860859888764674-11]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.23860859888764674-10, id: 0.23860859888764674-11]",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: div[class='_3liAhj']",
+        "{\"using\":\"css selector\",\"id\":\"0.23860859888764674-10\",\"value\":\"div[class='_1vC4OE']\"}"
+      ],
+      "result": "findChildElements:[id: 0.23860859888764674-12]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+        "{\"id\":\"0.23860859888764674-12\"}"
+      ],
+      "result": "getElementText:₹1,299",
+      "subLogs": [],
+      "duration": 27
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Flipkart Home Page verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_18ugajkf4q2ut7792.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Verify SamrtBands Page\nExpected: a string containing \"Smart Band - Buy Products Online at Best Price in India | Flipkart.com\"\n     Actual: was \"Smart Band - Buy Products Online at Best Price in India | Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_1nypyqzwe3rr7793.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "For input string: \"1,299\"",
+      "type": "Fail",
+      "screenshot": "../img/verifyOrder_nkp54g2ahhxh7794.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NumberFormatException: For input string: \"1,299\"\r\n\tat java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)\r\n\tat java.lang.Integer.parseInt(Integer.java:580)\r\n\tat java.lang.Integer.parseInt(Integer.java:615)\r\n\tat com.testflipkart.pomClasses.SearchresultTestPage.sortByLowToHigh(SearchresultTestPage.java:73)\r\n\tat com.testflipkart.scripts.FlipKartOrderVerificationTestPage.verifyOrder(FlipKartOrderVerificationTestPage.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\r\n\tat org.testng.TestNG.run(TestNG.java:996)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "TestFlipkart.scenarios.suite1.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1516183661183,
+  "endTime": 1516183662024
+}

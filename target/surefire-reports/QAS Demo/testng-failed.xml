@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]" parallel="tests">
+  <test name="BDD Test in chrome(failed)" parallel="tests">
+    <parameter name="driver.name" value="chromeDriver"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="afterSuit"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </classes>
+  </test> <!-- BDD Test in chrome(failed) -->
+  <test name="BDD Test in firefox(failed)" parallel="tests">
+    <parameter name="driver.name" value="firefoxDriver"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="afterSuit"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </classes>
+  </test> <!-- BDD Test in firefox(failed) -->
+</suite> <!-- Failed suite [QAS Demo] -->

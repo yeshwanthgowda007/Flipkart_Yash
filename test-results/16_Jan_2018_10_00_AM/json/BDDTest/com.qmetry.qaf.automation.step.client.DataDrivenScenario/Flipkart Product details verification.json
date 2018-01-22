@@ -1,0 +1,1000 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensFlipkartApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 10142
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsTheFlipkartHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//button[text()='✕'], using=xpath}"
+          ],
+          "result": "[id: 0.18783509047984537-1]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "Using any of[xpath=//button[text()='✕'], css=svg[class='_1LYY3m']]",
+            "{\"id\":\"0.18783509047984537-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 126
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsFromCatogories",
+      "args": [
+        "[${categoryname}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1138
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=a[title='Men'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-2]",
+          "subLogs": [],
+          "duration": 161
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Men'], using=css selector}"
+          ],
+          "result": "id: 0.18783509047984537-2",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: a[title='Men']",
+            "{\"id\":\"0.18783509047984537-2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Men'], using=css selector}"
+          ],
+          "result": "id: 0.18783509047984537-2",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.18783509047984537-2}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 32
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsSmartBandsFromTheSubcatogories",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+          ],
+          "result": "[id: 0.18783509047984537-3]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+          ],
+          "result": "id: 0.18783509047984537-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: (//a[@title='Smart Bands'])[2]",
+            "{\"id\":\"0.18783509047984537-3\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+          ],
+          "result": "[id: 0.18783509047984537-3]",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+          ],
+          "result": "id: 0.18783509047984537-3",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: (//a[@title='Smart Bands'])[2]",
+            "{\"id\":\"0.18783509047984537-3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+          ],
+          "result": "id: 0.18783509047984537-3",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//a[@title='Smart Bands'])[2]",
+            "{\"id\":\"0.18783509047984537-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 241
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsTheProductsPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "userSearchForInTheProductsPage",
+      "args": [
+        "[${item}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=input[class='_1wT-Zr'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-4]",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input[class='_1wT-Zr'], using=css selector}"
+          ],
+          "result": "id: 0.18783509047984537-4",
+          "subLogs": [],
+          "duration": 122
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: input[class='_1wT-Zr']",
+            "{\"id\":\"0.18783509047984537-4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input[class='_1wT-Zr'], using=css selector}"
+          ],
+          "result": "id: 0.18783509047984537-4",
+          "subLogs": [],
+          "duration": 170
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: input[class='_1wT-Zr']",
+            "{\"id\":\"0.18783509047984537-4\",\"value\":[\"Mi\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 113
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsFromTheSearchList",
+      "args": [
+        "[${subitem}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[.='Mi'], using=xpath}"
+          ],
+          "result": "[id: 0.18783509047984537-5, id: 0.18783509047984537-6, id: 0.18783509047984537-7, id: 0.18783509047984537-8]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[.='Mi'], using=xpath}"
+          ],
+          "result": "id: 0.18783509047984537-5",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[.='Mi']",
+            "{\"id\":\"0.18783509047984537-5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[.='Mi'], using=xpath}"
+          ],
+          "result": "id: 0.18783509047984537-5",
+          "subLogs": [],
+          "duration": 55
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[.='Mi']",
+            "{\"id\":\"0.18783509047984537-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 170
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Smart Band - Buy Products Online at Best Price in India | Flipkart.com",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsTheSearchResultPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: div[class='_3liAhj']",
+            "{\"id\":\"0.18783509047984537-10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsFromTheSearchResultPage",
+      "args": [
+        "[${No}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.cssSelector: div[class='_3liAhj']",
+            "{\"using\":\"css selector\",\"id\":\"0.18783509047984537-10\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.18783509047984537-11]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.18783509047984537-11\"}"
+          ],
+          "result": "getElementText:Mi Band",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.cssSelector: div[class='_3liAhj']",
+            "{\"using\":\"css selector\",\"id\":\"0.18783509047984537-10\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.18783509047984537-12]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.18783509047984537-12\"}"
+          ],
+          "result": "getElementText:₹799",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: div[class='_3liAhj']",
+            "{\"using\":\"css selector\",\"id\":\"0.18783509047984537-10\",\"value\":\"div[class='hGSR34 _2beYZw']\"}"
+          ],
+          "result": "findChildElement:id: 0.18783509047984537-13",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[class='hGSR34 _2beYZw']",
+            "{\"id\":\"0.18783509047984537-13\"}"
+          ],
+          "result": "getElementText:3.9 ★",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: div[class='_3liAhj']",
+            "{\"using\":\"css selector\",\"id\":\"0.18783509047984537-10\",\"value\":\"span[class='_38sUEc']\"}"
+          ],
+          "result": "findChildElement:id: 0.18783509047984537-14",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: span[class='_38sUEc']",
+            "{\"id\":\"0.18783509047984537-14\"}"
+          ],
+          "result": "getElementText:(2,030)",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.18783509047984537-9, id: 0.18783509047984537-10]",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.cssSelector: div[class='_3liAhj']",
+            "{\"using\":\"css selector\",\"id\":\"0.18783509047984537-10\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.18783509047984537-11]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.18783509047984537-11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 131
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsTheProductDetailsPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getWindowHandles",
+          "args": [
+            "{}"
+          ],
+          "result": "[CDwindow-(5E8AEA75C82BB543AE08E4C04C053A69), CDwindow-(32DD7182F24B7A53393368E236290A7F)]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getWindowHandles",
+          "args": [
+            "{}"
+          ],
+          "result": "[CDwindow-(5E8AEA75C82BB543AE08E4C04C053A69), CDwindow-(32DD7182F24B7A53393368E236290A7F)]",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "switchToWindow",
+          "args": [
+            "{name=CDwindow-(5E8AEA75C82BB543AE08E4C04C053A69)}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "switchToWindow",
+          "args": [
+            "{name=CDwindow-(32DD7182F24B7A53393368E236290A7F)}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=h1[class='_3eAQiD'], using=css selector}"
+          ],
+          "result": "[id: 0.2901172860298342-1]",
+          "subLogs": [],
+          "duration": 1095
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1[class='_3eAQiD'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-1",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: h1[class='_3eAQiD']",
+            "{\"id\":\"0.2901172860298342-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1[class='_3eAQiD'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-1",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: h1[class='_3eAQiD']",
+            "{\"id\":\"0.2901172860298342-1\"}"
+          ],
+          "result": "getElementText:Mi Band  (Black)",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='_1vC4OE _37U4_g'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-2",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[class='_1vC4OE _37U4_g']",
+            "{\"id\":\"0.2901172860298342-2\"}"
+          ],
+          "result": "getElementText:₹799",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=span[class='_38sUEc'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-3",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: span[class='_38sUEc']",
+            "{\"id\":\"0.2901172860298342-3\"}"
+          ],
+          "result": "getElementText:2,030 Ratings & 261 Reviews",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='hGSR34 _2beYZw'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-4",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[class='hGSR34 _2beYZw']",
+            "{\"id\":\"0.2901172860298342-4\"}"
+          ],
+          "result": "getElementText:3.9 ★",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userEnterTheMailAddressInTheEmailTextBox",
+      "args": [
+        "[${email}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input[class='_2zrpKA _2qCX8T'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-5",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: input[class='_2zrpKA _2qCX8T']",
+            "{\"id\":\"0.2901172860298342-5\",\"value\":[\"abc123@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 170
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnNotifyMeButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=button[class='_2AkmmA _1FvsL0'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-6",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: button[class='_2AkmmA _1FvsL0']",
+            "{\"id\":\"0.2901172860298342-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 54
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetTheNotification",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='JAUzCh'], using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='JAUzCh'], using=css selector}"
+          ],
+          "result": "[id: 0.2901172860298342-7]",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='JAUzCh'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-7",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: div[class='JAUzCh']",
+            "{\"id\":\"0.2901172860298342-7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='JAUzCh'], using=css selector}"
+          ],
+          "result": "[id: 0.2901172860298342-7]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='JAUzCh'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-7",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: div[class='JAUzCh']",
+            "{\"id\":\"0.2901172860298342-7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='JAUzCh'], using=css selector}"
+          ],
+          "result": "id: 0.2901172860298342-7",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: div[class='JAUzCh']",
+            "{\"id\":\"0.2901172860298342-7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens flipkart application",
+      "type": "TestStepPass",
+      "duration": 13150,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user gets the flipkart home page",
+      "type": "TestStepPass",
+      "duration": 679,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Flipkart Home Page verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_1r6tll1fqjn3517784.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user selects 'Men' from catogories",
+      "type": "TestStepPass",
+      "duration": 1410,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects Smart Bands from the subcatogories",
+      "type": "TestStepPass",
+      "duration": 1432,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets the products page",
+      "type": "TestStepPass",
+      "duration": 7,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user search for 'Mi' in the products page",
+      "type": "TestStepPass",
+      "duration": 631,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects 'Mi' from the search list",
+      "type": "TestStepPass",
+      "duration": 646,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Verify SamrtBands Page\nExpected: a string containing \"Smart Band - Buy Products Online at Best Price in India | Flipkart.com\"\n     Actual: was \"Smart Band - Buy Products Online at Best Price in India | Flipkart.com\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_tppodwt8qvww17785.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user gets the search result page",
+      "type": "TestStepPass",
+      "duration": 364,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;2&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_jhgnafu64aq317786.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects '2' from the search result page",
+      "type": "TestStepPass",
+      "duration": 3392,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets the product details page",
+      "type": "TestStepPass",
+      "duration": 2665,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"Mi Band\"\n     Actual: was \"Mi Band  (Black)\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_1aoo76ni6uvj817787.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"₹799\"\n     Actual: was \"₹799\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_13sttpykaxhi817788.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"2,030\"\n     Actual: was \"2,030 Ratings & 261 Reviews\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_1oa885j8kr63k17789.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"3.9 ★\"\n     Actual: was \"3.9 ★\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_16jzjoqrn5bry17790.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user enter the mail address 'abc123@gmail.com' in the email text box",
+      "type": "TestStepPass",
+      "duration": 185,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on notify me button",
+      "type": "TestStepPass",
+      "duration": 75,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should get the notification",
+      "type": "TestStepPass",
+      "duration": 1454,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected notification in product detials page visible : Actual notification in product detials page visible",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_10_00_AM/img/Flipkart Product details verification_1bpqo0bwivkk717791.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

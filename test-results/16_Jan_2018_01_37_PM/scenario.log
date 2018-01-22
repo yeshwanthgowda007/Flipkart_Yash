@@ -1,0 +1,37 @@
+13:37:05 scenario.file.loc[Ljava.lang.String;@1fe20588
+13:37:05 loading BDD file: scenarios/suite1.bdd
+13:37:05 total test found: 1
+13:37:05 
+
+Executing scenario: Flipkart Product details verification - verify product detials from search result page to product details page
+13:37:05 Test Data{categoryname=Men, item=Mi, subitem=Mi, No=2, email=abc123@gmail.com}
+13:37:05 pkg: com.qmetry.qaf.automation.step
+13:37:06 pkg: com.testflipkart
+13:37:06 Found duplicate step to load [] with [lower] prority then []
+13:37:06 Invoking Teststep: Given user opens flipkart application
+13:37:16 Completed Teststep: Given user opens flipkart application
+13:37:16 Invoking Teststep: When user gets the flipkart home page
+13:37:17 Completed Teststep: When user gets the flipkart home page
+13:37:17 Invoking Teststep: Then user selects '${categoryname}' from catogories with arguments: [${categoryname}]
+13:37:18 Completed Teststep: Then user selects 'Men' from catogories with arguments: [${categoryname}]
+13:37:18 Invoking Teststep: And user selects Smart Bands from the subcatogories
+13:37:20 Completed Teststep: And user selects Smart Bands from the subcatogories
+13:37:20 Invoking Teststep: Then user gets the products page
+13:37:20 Completed Teststep: Then user gets the products page
+13:37:20 Invoking Teststep: When user search for '${item}' in the products page with arguments: [${item}]
+13:37:21 Completed Teststep: When user search for 'Mi' in the products page with arguments: [${item}]
+13:37:21 Invoking Teststep: And user selects '${subitem}' from the search list with arguments: [${subitem}]
+13:37:21 Completed Teststep: And user selects 'Mi' from the search list with arguments: [${subitem}]
+13:37:21 Invoking Teststep: Then user gets the search result page
+13:37:22 Completed Teststep: Then user gets the search result page
+13:37:22 Invoking Teststep: When user selects '${No}' from the search result page with arguments: [${No}]
+13:37:25 Completed Teststep: When user selects '2' from the search result page with arguments: [${No}]
+13:37:25 Invoking Teststep: Then user gets the product details page
+13:37:28 Completed Teststep: Then user gets the product details page
+13:37:28 Invoking Teststep: When user enter the mail address '${email}' in the email text box with arguments: [${email}]
+13:37:28 Completed Teststep: When user enter the mail address 'abc123@gmail.com' in the email text box with arguments: [${email}]
+13:37:28 Invoking Teststep: And click on notify me button
+13:37:28 Completed Teststep: And click on notify me button
+13:37:28 Invoking Teststep: Then user should get the notification
+13:37:30 Completed Teststep: Then user should get the notification
+13:37:30 Competed scenario: Flipkart Product details verification with status SUCESS

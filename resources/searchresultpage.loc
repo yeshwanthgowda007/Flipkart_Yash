@@ -1,0 +1,7 @@
+searchresultpage.productname.lnk = {\"locator\":[\"css=a[class='_2cLu-l']\",\"css=div[class='_1Ox9a7']\"],\"desc\":\"product name in search result page\"}
+searchresultpage.productdetails.lnk = {\"locator\":\"css=div[class='_3liAhj']\",\"desc\":\"product details in search result page\"}
+searchresultpage.productprice.lnk = {\"locator\":[\"css=div[class='_1vC4OE']\",\"css=div[class='I8hxu4']\"],\"desc\":\"product price in search result page\"}
+searchresultpage.productratings.lnk = {\"locator\":\"css=div[class='hGSR34 _2beYZw']\",\"desc\":\"product ratings in search result page\"}
+searchresultpage.productratingscount.lnk = {\"locator\":\"css=span[class='_38sUEc']\",\"desc\":\"product ratings count in search result page\"}
+searchresultpage.productsoutofstock.lnk = {\"locator\":\"xpath=(//span[@class='_1GJ2ZM'])[1]\",\"desc\":\"products which are out of stock in search result page\"}
+searchresultpage.sortbylowtohigh.lnk = {\"locator\":\"xpath=//li[text()='Price -- Low to High']\",\"desc\":\"sort by price low to high\"}

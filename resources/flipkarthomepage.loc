@@ -1,0 +1,3 @@
+flipkarthomepage.category.lnk = {\"locator\":\"css=a[title='%s']\",\"desc\":\"Home Page Main Category link\"}
+flipkarthomepage.subcategory.lnk = {\"locator\":\"xpath=(//a[@title='Smart Bands'])[2]\",\"desc\":\"Home page SubCategory link\"}
+flipkarthomepage.popup.btn = {\"locator\":[\"xpath=//button[text()='\u2715']\",\"css=svg[class='_1LYY3m']\"],\"desc\":\"popup close button\"}

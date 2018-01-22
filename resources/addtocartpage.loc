@@ -1,0 +1,3 @@
+addtocart.productdetails.lnk = {\"locator\":[\"css=div[class='_3ycxrs']\",\"css=div[class='PaJLWc']\"],\"desc\":\"product details\"}
+addtocart.productprice.lnk = {\"locator\":\"css=div[class='I8hxu4']\",\"desc\":\"product price in add to cart page\"}
+addtocart.productname.lnk = {\"locator\":\"css=a[class='_325-ji _3ROAwx']\",\"desc\":\"product name in add to cart page\"}

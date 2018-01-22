@@ -1,0 +1,33 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "name": "verifyOrder",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1515156949388,
+      "duration": 2404,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "verifyOrderkSkzCoKnVX",
+        "name": "verifyOrder",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1515157004875,
+      "duration": 28968,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

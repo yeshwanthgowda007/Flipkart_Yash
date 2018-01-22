@@ -1,0 +1,9 @@
+productdetailspage.productname.lnk = {\"locator\":\"css=h1[class='_3eAQiD']\",\"desc\":\"product name in product details page\"}
+productdetailspage.productprice.lnk = {\"locator\":\"css=div[class='_1vC4OE _37U4_g']\",\"desc\":\"produce price in product details page\"}
+productdetailspage.productratings.lnk = {\"locator\":\"css=div[class='hGSR34 _2beYZw']\",\"desc\":\"produce ratings in product details page\"}
+productdetailspage.productraingscount.lnk = {\"locator\":\"css=span[class='_38sUEc']\",\"desc\":\"produce ratings count in product details page\"}
+productdetailspage.notification.lnk = {\"locator\":\"css=div[class='JAUzCh']\",\"desc\":\"notification in product detials page\"}
+productdetailspage.email.txt = {\"locator\":\"css=input[class='_2zrpKA _2qCX8T']\",\"desc\":\"email text field in product details page\"}
+productdetailspage.notifyme.btn = {\"locator\":\"css=button[class='_2AkmmA _1FvsL0']\",\"desc\":\"notify me button in product details page\"}
+productdetailspage.addtocart.btn = {\"locator\":[\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK']\",\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU']\",\"css=button[class='_2AkmmA _2Npkh4 _2kuvG8 _7UHT_c']\"],\"desc\":\"add to cart button in product details page\"}
+productdetailspage.sizeregular.lnk = {\"locator\":\"css=a[class='_2_26Ng']\",\"desc\":\"size regular link in product details page\"}

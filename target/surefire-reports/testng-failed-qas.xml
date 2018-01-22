@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="QAS Demo" parallel="tests">
+  <test name="BDD Test in chrome">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Flipkart Product details verification")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="driver.name" value="chromeDriver"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- BDD Test in chrome -->
+  <test name="BDD Test in firefox">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Flipkart Product details verification")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="driver.name" value="firefoxDriver"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- BDD Test in firefox -->
+</suite> <!-- QAS Demo -->

@@ -1,0 +1,22 @@
+
+
+
+SCENARIO: Flipkart Product details verification
+META-DATA: {"description":"verify product detials from search result page to product details page","groups":["P1","P2","SMOKE"],"key":"categories"}
+	
+	Given user opens flipkart application
+	When user gets the flipkart home page
+	Then user selects '${categoryname}' from catogories
+	And user selects Smart Bands from the subcatogories
+	Then user gets the products page
+	When user search for '${item}' in the products page
+	And user selects '${subitem}' from the search list
+	Then user gets the search result page
+	When user selects '${No}' from the search result page
+	Then user gets the product details page
+	When user enter the mail address '${email}' in the email text box
+	And click on notify me button
+	Then user should get the notification
+		
+END
+

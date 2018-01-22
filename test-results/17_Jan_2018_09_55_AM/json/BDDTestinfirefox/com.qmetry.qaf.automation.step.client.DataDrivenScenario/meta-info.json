@@ -1,0 +1,35 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "Men",
+          "item": "Mi",
+          "subitem": "Mi",
+          "No": "2",
+          "email": "abc123@gmail.com"
+        }
+      ],
+      "metaData": {
+        "description": "verify product detials from search result page to product details page",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 4,
+        "name": "Flipkart Product details verification",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.Flipkart Product details verification( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516182938455,
+      "duration": 1280,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

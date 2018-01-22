@@ -1,0 +1,14 @@
+{
+  "name": "QAS Demo",
+  "status": "unstable",
+  "tests": [
+    "BDDTestinfirefox",
+    "BDDTestinchrome"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "startTime": 1516183614830,
+  "endTime": 1516183616267
+}

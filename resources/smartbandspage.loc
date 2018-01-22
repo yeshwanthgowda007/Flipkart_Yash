@@ -1,0 +1,2 @@
+smartbandspage.search.txt = {\"locator\":\"css=input[class='_1wT-Zr']\",\"desc\":\"search text bar in smart bands page\"}
+smartbands.brand.chkbx = {\"locator\":\"xpath=//div[.='%s']\",\"desc\":\"brand checkbox under search filter box\"}

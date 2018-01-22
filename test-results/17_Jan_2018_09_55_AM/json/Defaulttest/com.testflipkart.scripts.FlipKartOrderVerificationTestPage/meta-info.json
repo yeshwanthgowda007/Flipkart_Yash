@@ -1,0 +1,18 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "name": "verifyOrder",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1516183556649,
+      "duration": 411,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

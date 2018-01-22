@@ -1,0 +1,1092 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.flipkart.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 7516
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[text()='✕'], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-1]",
+      "subLogs": [],
+      "duration": 242
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "Using any of[xpath=//button[text()='✕'], css=svg[class='_1LYY3m']]",
+        "{\"id\":\"0.21747496672125122-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 153
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1218
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=a[title='Men'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-2]",
+      "subLogs": [],
+      "duration": 132
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Men'], using=css selector}"
+      ],
+      "result": "id: 0.21747496672125122-2",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: a[title='Men']",
+        "{\"id\":\"0.21747496672125122-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Men'], using=css selector}"
+      ],
+      "result": "id: 0.21747496672125122-2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.21747496672125122-2}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-3]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//a[@title='Smart Bands'])[2], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-3",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: (//a[@title='Smart Bands'])[2]",
+        "{\"id\":\"0.21747496672125122-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 207
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-4]",
+      "subLogs": [],
+      "duration": 73
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "id: 0.21747496672125122-4",
+      "subLogs": [],
+      "duration": 142
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: input[class='_1wT-Zr']",
+        "{\"id\":\"0.21747496672125122-4\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 69
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=input[class='_1wT-Zr'], using=css selector}"
+      ],
+      "result": "id: 0.21747496672125122-4",
+      "subLogs": [],
+      "duration": 279
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.cssSelector: input[class='_1wT-Zr']",
+        "{\"id\":\"0.21747496672125122-4\",\"value\":[\"Mi\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 303
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[.='Mi'], using=xpath}"
+      ],
+      "result": "[id: 0.21747496672125122-5, id: 0.21747496672125122-6, id: 0.21747496672125122-7, id: 0.21747496672125122-8]",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[.='Mi'], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-5",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[.='Mi']",
+        "{\"id\":\"0.21747496672125122-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[.='Mi'], using=xpath}"
+      ],
+      "result": "id: 0.21747496672125122-5",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[.='Mi']",
+        "{\"id\":\"0.21747496672125122-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 165
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Smart Band - Buy Products Online at Best Price in India | Flipkart.com",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-9, id: 0.21747496672125122-10]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: div[class='_3liAhj']",
+        "{\"using\":\"css selector\",\"id\":\"0.21747496672125122-9\",\"value\":\"a[class='_2cLu-l']\"}"
+      ],
+      "result": "findChildElements:[id: 0.21747496672125122-11]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+        "{\"id\":\"0.21747496672125122-11\"}"
+      ],
+      "result": "getElementText:Mi Band - HRX Edition",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-9, id: 0.21747496672125122-10]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: div[class='_3liAhj']",
+        "{\"using\":\"css selector\",\"id\":\"0.21747496672125122-9\",\"value\":\"div[class='_1vC4OE']\"}"
+      ],
+      "result": "findChildElements:[id: 0.21747496672125122-12]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+        "{\"id\":\"0.21747496672125122-12\"}"
+      ],
+      "result": "getElementText:₹1,299",
+      "subLogs": [],
+      "duration": 78
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-9, id: 0.21747496672125122-10]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: div[class='_3liAhj']",
+        "{\"using\":\"css selector\",\"id\":\"0.21747496672125122-9\",\"value\":\"a[class='_2cLu-l']\"}"
+      ],
+      "result": "findChildElements:[id: 0.21747496672125122-11]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+        "{\"id\":\"0.21747496672125122-11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 533
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-9, id: 0.21747496672125122-10]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3liAhj'], using=css selector}"
+      ],
+      "result": "[id: 0.21747496672125122-9, id: 0.21747496672125122-10]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: div[class='_3liAhj']",
+        "{\"id\":\"0.21747496672125122-10\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-(8BD5C9C8065630A4EE3CFC96FA029A6A), CDwindow-(48305B01C6C986555E80A4E230C3E22E)]",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-(8BD5C9C8065630A4EE3CFC96FA029A6A), CDwindow-(48305B01C6C986555E80A4E230C3E22E)]",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-(8BD5C9C8065630A4EE3CFC96FA029A6A)}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-(48305B01C6C986555E80A4E230C3E22E)}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 57
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=h1[class='_3eAQiD'], using=css selector}"
+      ],
+      "result": "[id: 0.4945082657144544-1]",
+      "subLogs": [],
+      "duration": 1126
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=h1[class='_3eAQiD'], using=css selector}"
+      ],
+      "result": "id: 0.4945082657144544-1",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: h1[class='_3eAQiD']",
+        "{\"id\":\"0.4945082657144544-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=h1[class='_3eAQiD'], using=css selector}"
+      ],
+      "result": "id: 0.4945082657144544-1",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: h1[class='_3eAQiD']",
+        "{\"id\":\"0.4945082657144544-1\"}"
+      ],
+      "result": "getElementText:Mi Band - HRX Edition  (Black)",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=div[class='_1vC4OE _37U4_g'], using=css selector}"
+      ],
+      "result": "id: 0.4945082657144544-2",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='_1vC4OE _37U4_g']",
+        "{\"id\":\"0.4945082657144544-2\"}"
+      ],
+      "result": "getElementText:₹1,299",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=button[class='_2AkmmA _1FvsL0'], using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[class='_2_26Ng'], using=css selector}"
+      ],
+      "result": "id: 0.4945082657144544-3",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: a[class='_2_26Ng']",
+        "{\"id\":\"0.4945082657144544-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 177
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=button[class='_2AkmmA _2Npkh4 _2MWPVK'], using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 168
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU'], using=css selector}"
+      ],
+      "result": "[id: 0.4945082657144544-4]",
+      "subLogs": [],
+      "duration": 69
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "Using any of[css=button[class='_2AkmmA _2Npkh4 _2MWPVK'], css=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU'], css=button[class='_2AkmmA _2Npkh4 _2kuvG8 _7UHT_c']]",
+        "{\"id\":\"0.4945082657144544-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 98
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3ycxrs'], using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='PaJLWc'], using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3ycxrs'], using=css selector}"
+      ],
+      "result": "[id: 0.4945082657144544-5]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "Using any of[css=div[class='_3ycxrs'], css=div[class='PaJLWc']]",
+        "{\"id\":\"0.4945082657144544-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3ycxrs'], using=css selector}"
+      ],
+      "result": "[id: 0.4945082657144544-5]",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='_3ycxrs'], using=css selector}"
+      ],
+      "result": "[id: 0.4945082657144544-5]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=div[class='_3ycxrs'], css=div[class='PaJLWc']]",
+        "{\"using\":\"css selector\",\"id\":\"0.4945082657144544-5\",\"value\":\"a[class='_2cLu-l']\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=div[class='_3ycxrs'], css=div[class='PaJLWc']]",
+        "{\"using\":\"css selector\",\"id\":\"0.4945082657144544-5\",\"value\":\"div[class='_1Ox9a7']\"}"
+      ],
+      "result": "findChildElements:[id: 0.4945082657144544-6]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+        "{\"id\":\"0.4945082657144544-6\"}"
+      ],
+      "result": "getElementText:Mi Band - HRX Edition",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=div[class='_3ycxrs'], css=div[class='PaJLWc']]",
+        "{\"using\":\"css selector\",\"id\":\"0.4945082657144544-5\",\"value\":\"div[class='_1vC4OE']\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=div[class='_3ycxrs'], css=div[class='PaJLWc']]",
+        "{\"using\":\"css selector\",\"id\":\"0.4945082657144544-5\",\"value\":\"div[class='I8hxu4']\"}"
+      ],
+      "result": "findChildElements:[id: 0.4945082657144544-7]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+        "{\"id\":\"0.4945082657144544-7\"}"
+      ],
+      "result": "getElementText:₹1,299",
+      "subLogs": [],
+      "duration": 18
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Flipkart Home Page verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_18fospkko4fc30606.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Verify SamrtBands Page\nExpected: a string containing \"Smart Band - Buy Products Online at Best Price in India | Flipkart.com\"\n     Actual: was \"Smart Band - Buy Products Online at Best Price in India | Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_jf5w2kd0vdms30607.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;2&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_9dgppgxwo2m030608.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Mi Band - HRX Edition\"\n     Actual: was \"Mi Band - HRX Edition  (Black)\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_97epsikkw9a130609.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"₹1,299\"\n     Actual: was \"₹1,299\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_xl9eu52dqmqt30610.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;1&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_o21zvzjps1jn30611.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Mi Band - HRX Edition\"\n     Actual: was \"Mi Band - HRX Edition\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_hc5zcldvyn2x30612.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"₹1,299\"\n     Actual: was \"₹1,299\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyOrder_1w8diky9rwbjw30613.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyOrder",
+        "sign": "FlipKartOrderVerificationTestPage.verifyOrder()[pri:0, instance:com.testflipkart.scripts.FlipKartOrderVerificationTestPage@4f9a3314]"
+      },
+      "dependsOn": [],
+      "startTime": 1515157075877,
+      "duration": 24012,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

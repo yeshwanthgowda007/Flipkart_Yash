@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0" parallel="tests" thread-count="3">
+
+	<!-- <parameter name="driver.name" value="firefoxDriver" /> -->
+	<test name="BDD Test in firefox" enabled="true">
+		<parameter name="driver.name" value="firefoxDriver" />
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+
+	<test name="BDD Test in chrome" enabled="true">
+		<parameter name="driver.name" value="chromeDriver" />
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+
+	<test name="KWD Test" enabled="false">
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory"></class>
+		</classes>
+	</test>
+
+
+</suite>
